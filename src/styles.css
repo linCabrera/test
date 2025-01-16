@@ -1,1 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
+
+.hero {
+    background: url('https://img.freepik.com/foto-gratis/imagen-objetos-ingenieria-punto-vista-top-construction-trabajo-herramientas-ingenieria-vintage-efecto-filtro-retro-tono-enfoque-suave-enfoque-selectivo_1418-709.jpg?t=st=1736652763~exp=1736656363~hmac=c1becdca047514d285bfd2bfd85c3cd7b43f54bda8a12b03cf31a793f3deaad0&w=740') center/cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 8rem 2rem;
+    .hero-content {
+      max-width: 800px;
+      margin: 0 auto;
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+      .btn-primary {
+        background-color: #004085;
+        color: #ffffff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        text-decoration: none;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .services {
+    padding: 4rem 2rem;
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .service-cards {
+      display: flex;
+      justify-content: space-around;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      .service-card {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 1rem;
+          color: #6c757d;
+        }
+      }
+    }
+  }
+  
+  .portfolio-preview {
+    padding: 4rem 2rem;
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .portfolio-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      .project-card {
+        img {
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+        h3 {
+          margin-top: 1rem;
+          font-size: 1.2rem;
+          color: #495057;
+        }
+      }
+    }
+    .btn-secondary {
+      margin-top: 2rem;
+      background-color: #575883;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  }
+  
+  .contact {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      input, textarea {
+        width: 100%;
+        max-width: 500px;
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+      }
+      button {
+        background-color: #004085;
+        color: #ffffff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
